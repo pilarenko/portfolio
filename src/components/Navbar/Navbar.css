@@ -6,6 +6,17 @@
   list-style-type: none;
 }
 
+.language {
+  margin: 25px 20px; 
+  display: flex;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  margin: 14px 5px;
+}
+
 li {
   float: right;
   margin: 25px 5px;
@@ -19,24 +30,34 @@ li a {
   text-decoration: none;
 }
 
+li.language:hover {
+  cursor: pointer;
+  background-color: #d8c568;
+}
+
+i {
+  padding: 0;
+}
+
 li a:hover {
   background-color: #d8c568;
 }
 
-.language {
-  margin: 25px 20px;
+a:hover {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 676px) {
   [class*="navbar"] {
     width: 100%;
+    margin: 0 auto;
   }
   [class*="language"] {
-    margin: 10px 5px;
+    margin: 10px 12% 10px 10%;
     padding: 14px 0px;
   }
   [type*="li"] {
-    margin: 10px auto;
+    margin: 10px 0px;
     padding: 14px 0px;
   }
 }

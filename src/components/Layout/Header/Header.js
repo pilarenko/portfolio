@@ -7,7 +7,7 @@ import classes from './Header.css';
 
 const header = (props) => (
 	<div className = {classes.header}>
-		<Signature />
+		<Signature language = {props.language.signature}/>
 		<Visual />
 	</div>
 );

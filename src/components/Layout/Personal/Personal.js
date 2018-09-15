@@ -7,7 +7,7 @@ import classes from './Personal.css';
 
 const personal = (props) => (
 	<div className = {classes.personal}>
-		<Profile />
+		<Profile language = {props.language.profile}/>
 		<Skills />
 	</div>
 );

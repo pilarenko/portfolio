@@ -1,15 +1,27 @@
 .project {
 	background-color: #FEF9EA;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-	margin: 20px auto 80px auto;
-	width: 180px;
-	height: 75px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+	width: 240px;
+	min-height: 50%;
 	text-align: center;
+	text-decoration: none;
+	color: #1b1d1c;
+}
+
+.preview {
+	width: 80%;
+	height: 60%;
+	margin: 5px auto 15px auto;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.paragraph {
+	padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 676px) {
   [class*="project"] {
-  	width: 80%;
+  	width: 90%;
   	margin: 20px 10px;
   }
 }

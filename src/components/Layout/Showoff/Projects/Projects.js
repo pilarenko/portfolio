@@ -5,15 +5,21 @@ import Project from './Project/Project';
 import classes from './Projects.css';
 
 const projects = (props) => {
-	const projectsList = ["Elevelator", "Form", "Used car purchase analysis"];
+	const projectsList = props.language.project;
+	const header = props.language.header;
+	const hrefList = ["https://priceless-shannon-14664c.netlify.com/", "https://affectionate-mcclintock-c339bb.netlify.com/"];
+	const srcList = ["https://res.cloudinary.com/dbqh97mz3/image/upload/v1537033990/elevelator.jpg", "https://res.cloudinary.com/dbqh97mz3/image/upload/v1537033989/form.jpg"];
 	const elements = [];
 
 	for (let i = 0; i < projectsList.length; i++) {
-		elements.push(<Project label = {projectsList[i]} key = {projectsList[i]}/>);
+		elements.push(<Project src = {srcList[i]} label = {projectsList[i]} link = {hrefList[i]} key = {projectsList[i]}/>);
 	}	
 	return (
-		<div className = {classes.projects}>
-			{elements}
+		<div>
+			<h2 className = {classes.header}>{header}</h2>
+			<div className = {classes.projects}>
+				{elements}
+			</div>
 		</div>
 	);
 };

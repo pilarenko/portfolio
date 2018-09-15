@@ -1,8 +1,6 @@
 .visual {
 	background-color: #eed974;
-	
-/*	background-image: linear-gradient(to bottom, #eed974, #f1e090, #f4e7ac, #f6edc7, #f8f4e2);
-*/	padding: 140px 0px;
+	padding: 200px 0px;
 }
 
 @media only screen and (max-width: 676px) {

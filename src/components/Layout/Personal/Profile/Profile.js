@@ -4,19 +4,25 @@ import Avatar from './Avatar/Avatar';
 
 import classes from './Profile.css';
 
-const profile = (props) => (
-	<div className = {classes.profile}>
-		<div className = {classes.firstRow}>
-			<Avatar />
-			<p className = {classes.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+const profile = (props) => {
+	const paragraph = props.language[0];
+	const lis = props.language[1];
+	let elements = [];
+	for (let i = 0; i < lis.length; i++) {
+		elements.push(<li key = {i}>{lis[i]}</li>);
+	}
+	return (
+		<div className = {classes.profile}>
+			<div className = {classes.firstRow}>
+				<Avatar />
+				<p className = {classes.paragraph}>{paragraph}</p>
+			</div>
+			<div className = {classes.secondRow}>
+				<ul className = {classes.list}>
+					{elements}
+				</ul>
+			</div>
 		</div>
-		<div className = {classes.secondRow}>
-			<ul className = {classes.list}>
-				<li>Jakieś</li>
-				<li>Bzdurki</li>
-				<li>Tutaj</li>
-			</ul>
-		</div>
-	</div>
-);
+	)
+};
 export default profile;

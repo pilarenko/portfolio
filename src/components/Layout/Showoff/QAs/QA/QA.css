@@ -1,10 +1,14 @@
 .qa {
 	padding: 20px 10px 20px 10px;
 	margin: 10px 0px;
+	max-width: 25%;
+	text-align: justify;
+	color: #1b1d1c;
 }
 
 .question {
 	margin-bottom: 10px;
+	font-size: 1.2rem;
 }
 
 .answer {
@@ -13,8 +17,8 @@
 
 @media only screen and (max-width: 676px) {
   [class*="qa"] {
-  	width: 90%;
   	margin: 10px 0px;
+  	max-width: 90%;
   }
 }
 

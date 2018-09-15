@@ -1,15 +1,29 @@
 .contact {
 	display: grid;
 	margin: 30px auto 10px auto;
-	color: black;
+	color: #1b1d1c;
 	text-align: justify;
 }
 
 .email {
-	width: 15%;
-	height: 40px;
+	width: 20%;
+	height: 60px;
 	display: block;
 	margin: 0 auto;
+	background-color: #d2c583;
+	color: #1b1d1c;
+	font-size: 1.3rem;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.email:hover {
+	transform: scale(1.01);
+	box-shadow: 0 2px 5.5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.buttonIcon {
+	padding: 0px 15px 0px 0px;
 }
 
 @media only screen and (max-width: 676px) {
@@ -23,8 +37,8 @@
   }
   [class*="email"] {
   	margin: 0 auto;
-  	width: 30%;
-  	height: 40px;
+  	width: 45%;
+  	height: 60px;
   }
 }
 

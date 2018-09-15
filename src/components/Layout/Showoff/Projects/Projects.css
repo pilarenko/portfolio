@@ -1,13 +1,20 @@
 .projects {
-	color: black;
+	color: #1b1d1c;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 0px 120px;
+  margin: 20px 240px 80px 240px;
+}
+
+.header {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #1b1d1c;
 }
 
 @media only screen and (max-width: 676px) {
   [class*="projects"] {
+  	flex-direction: column;
   	padding: 0px;
   	max-width: 80%;
   	margin: 40px auto;

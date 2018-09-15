@@ -5,8 +5,8 @@ import QA from './QA/QA';
 import classes from './QAs.css';
 
 const qas = (props) => {
-	const questionsList = ["Czy je Pan chleb?", "Czy lubi Pan twarożek?", "Jak się masz?"];
-	const answersList = ["Tak, jadam.", "Uwielbiam twarożek.", "Mam."];
+	const questionsList = props.language.q;
+	const answersList = props.language.a;
 	const elements = [];
 
 	for (let i = 0; i < questionsList.length; i++) {

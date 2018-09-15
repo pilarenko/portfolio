@@ -4,8 +4,9 @@
 	background-color: #FEF9EA;
 	max-width: 40%;
 	margin: 100px auto;
-	color: black;
+	color: #1b1d1c;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	text-align: justify;
 }
 
 .firstRow {
@@ -14,10 +15,12 @@
 
 .secondRow {
 	display: block;
+	margin: 0px 20px 20px 35px;
+	font-size: 1.1rem;
 }
 
 .paragraph {
-	margin: 10px 10px 10px 20px;
+	margin: 33px 20px 10px 10px;
 	text-align: justify;
 }
 
@@ -38,5 +41,8 @@
   }
   [class*="firstRow"] {
   	flex-direction: column;
+  }  
+  [class*="secondRow"] {
+  	margin: 0px 0px 20px 0px;
   }
 }
