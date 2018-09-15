@@ -1,3 +1,20 @@
 .qa {
-	background-color: green;
+	padding: 20px 10px 20px 10px;
+	margin: 10px 0px;
 }
+
+.question {
+	margin-bottom: 10px;
+}
+
+.answer {
+	
+}
+
+@media only screen and (max-width: 676px) {
+  [class*="qa"] {
+  	width: 90%;
+  	margin: 10px 0px;
+  }
+}
+

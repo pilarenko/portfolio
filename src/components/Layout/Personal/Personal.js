@@ -7,7 +7,6 @@ import classes from './Personal.css';
 
 const personal = (props) => (
 	<div className = {classes.personal}>
-		<p>Personal</p>
 		<Profile />
 		<Skills />
 	</div>

@@ -10,7 +10,7 @@ import classes from './Layout.css';
 
 const layout = (props) => (
 	<div className = {classes.layout}>
-		<Header />
+		<Header /> 
 		<Personal />
 		<Showoff />
 	</div>

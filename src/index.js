@@ -4,5 +4,8 @@ import './index.css';
 import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { IntlProvider, addLocaleData } from "react-intl";
+
+
+ReactDOM.render(<IntlProvider><App /></IntlProvider>, document.getElementById('root'));
 registerServiceWorker();

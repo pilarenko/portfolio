@@ -1,3 +1,42 @@
 .profile {
-	background-color: grey;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FEF9EA;
+	max-width: 40%;
+	margin: 100px auto;
+	color: black;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.firstRow {
+	display: flex;
+}
+
+.secondRow {
+	display: block;
+}
+
+.paragraph {
+	margin: 10px 10px 10px 20px;
+	text-align: justify;
+}
+
+.list {
+	display: grid;
+}
+
+.list li {
+	margin: 2px 10px;
+}
+
+@media only screen and (max-width: 676px) {
+  [class*="profile"] {
+  	display: block;
+  	max-width: 80%;
+  	padding: 5px 10px;
+  	margin: 20px auto;
+  }
+  [class*="firstRow"] {
+  	flex-direction: column;
+  }
 }

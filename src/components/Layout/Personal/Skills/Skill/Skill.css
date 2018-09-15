@@ -1,3 +1,9 @@
 .skill {
-	
+	flex: 0 0 32%;
+	width: 15%;
+	margin: 20px 0px 20px 0px;
+	text-align: center;
+	background-color: #FEF9EA;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	padding-top: 40px;
 }

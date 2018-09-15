@@ -1,6 +1,30 @@
 .contact {
-	width: 100%;
-	height: 120px;
-	background-color: black;
-	color: white;
+	display: grid;
+	margin: 30px auto 10px auto;
+	color: black;
+	text-align: justify;
 }
+
+.email {
+	width: 15%;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 676px) {
+  [class*="contact"] {
+	 	margin: 10px auto;
+	 	padding: 0px 10px;
+	 	display: grid;
+  }
+  [class*="paragraph"] {
+	 	margin: 0px;
+  }
+  [class*="email"] {
+  	margin: 0 auto;
+  	width: 30%;
+  	height: 40px;
+  }
+}
+
