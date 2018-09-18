@@ -1,11 +1,10 @@
 .skill {
 	flex: 0 0 32%;
-	width: 10%;
+	width: 8%;
 	margin: 15px 0px 20px 0px;
 	text-align: center;
 	background-color: #FEF9EA;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-	padding-top: 40px;
 	color: #1b1d1c;
 	cursor: pointer;
 	font-size: 1.3rem;
@@ -22,7 +21,6 @@
 	     -o-animation: fadein 2s; /* Opera < 12.1 */
 	        animation: fadein 2s;
 }
-
 
 .skill:nth-child(1) {
   background-color: #ffd6ab;
