@@ -50,6 +50,7 @@ a:hover {
 @media only screen and (max-width: 676px) {
   [class*="navbar"] {
     width: 100%;
+    display: flex;
     margin: 0 auto;
   }
   [class*="language"] {

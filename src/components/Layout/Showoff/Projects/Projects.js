@@ -7,7 +7,7 @@ import classes from './Projects.css';
 const projects = (props) => {
 	const projectsList = props.language.project;
 	const header = props.language.header;
-	const hrefList = ["https://priceless-shannon-14664c.netlify.com/", "https://affectionate-mcclintock-c339bb.netlify.com/"];
+	const hrefList = ["https://peelar-elevelator.netlify.com/", "peelar-form.netlify.com/"];
 	const srcList = ["https://res.cloudinary.com/dbqh97mz3/image/upload/v1537033990/elevelator.jpg", "https://res.cloudinary.com/dbqh97mz3/image/upload/v1537033989/form.jpg"];
 	const elements = [];
 

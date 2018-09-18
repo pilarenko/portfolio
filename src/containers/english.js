@@ -13,7 +13,7 @@ const english = {
 				header: "My work",
 			},
 			qas: {
-				q: ["What services do you offer?", "How much will it cost me?", "Are you willing to do open-source project?"],
+				q: ["What services do you offer?", "How much will it cost me?", "Are you willing to do an open-source project?"],
 				a: ["I can design, implement and service your website. If you want to mark your online presence with a bang - stop looking any further.", "Pricing is determined individually, depending (i.e.) on how complex the task is or will it include integration with other services. Contact me and together we will figure it out.", "Sure thing. I am deeply inspired by the developer community, so I would gladly repay a part of my debt I took during years of exploiting Stack Overflow."],
 			},
 			contact: "Do you feel I'm your huckleberry? Contact me and let's start a beautiful partnership.",

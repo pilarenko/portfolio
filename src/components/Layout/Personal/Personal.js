@@ -8,7 +8,7 @@ import classes from './Personal.css';
 const personal = (props) => (
 	<div className = {classes.personal}>
 		<Profile language = {props.language.profile}/>
-		<Skills />
+		<Skills onHover={props.onHover} onLeave={props.onLeave}/>
 	</div>
 );
 export default personal;

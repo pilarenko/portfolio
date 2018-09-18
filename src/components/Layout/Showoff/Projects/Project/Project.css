@@ -8,6 +8,10 @@
 	color: #1b1d1c;
 }
 
+.project:hover {
+	transform: scale(1.02);
+}
+
 .preview {
 	width: 80%;
 	height: 60%;
