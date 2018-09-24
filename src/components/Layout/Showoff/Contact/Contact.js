@@ -9,7 +9,7 @@ const contact = (props) => {
 	return (
 		<div className = {classes.contact}>
 			<h2 className = {classes.paragraph}>{paragraph}</h2>
-			<button className = {classes.email}><i className={buttonClasses}></i>{emailText}</button>
+			<a href="mailto:adrianpilarczyk314@gmail.com?"><button className = {classes.email}><i className={buttonClasses}></i>{emailText}</button></a>
 		</div>
 	)
 };

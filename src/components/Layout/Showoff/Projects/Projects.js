@@ -5,14 +5,28 @@ import Project from './Project/Project';
 import classes from './Projects.css';
 
 const projects = (props) => {
-	const projectsList = props.language.project;
+	const projectProperties = {
+		name: props.language.project.names,
+		desc: props.language.project.desc,
+		tech: props.language.project.tech,
+		status: props.language.project.status,
+	};
+
 	const header = props.language.header;
-	const hrefList = ["https://peelar-elevelator.netlify.com/", "https://peelar-form.netlify.com/"];
-	const srcList = ["https://res.cloudinary.com/dbqh97mz3/image/upload/v1537033990/elevelator.jpg", "https://res.cloudinary.com/dbqh97mz3/image/upload/v1537033989/form.jpg"];
+	const hrefList = ["https://peelar-elevelator.netlify.com/", "https://peelar-spotacritic.netlify.com/"];
+	const techList = ["React", "React, Firebase, Axios, Cheerio, Node.js"];
 	const elements = [];
 
-	for (let i = 0; i < projectsList.length; i++) {
-		elements.push(<Project src = {srcList[i]} label = {projectsList[i]} link = {hrefList[i]} key = {projectsList[i]}/>);
+	for (let i = 0; i < projectProperties.name.length; i++) {
+		elements.push(<Project 
+			label={projectProperties.name[i]} 
+			desc={props.language.project.desc[i]} 
+			link={hrefList[i]} 
+			tech={techList[i]} 
+			techLabel={projectProperties.tech} 
+			key={projectProperties.name[i]}
+			status={projectProperties.status[i]}
+			/>);
 	}	
 	return (
 		<div>

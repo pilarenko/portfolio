@@ -15,7 +15,7 @@
 	
 }
 
-@media only screen and (max-width: 676px) {
+@media only screen and (max-width: 768px) {
   [class*="qa"] {
   	margin: 10px 0px;
   	max-width: 90%;

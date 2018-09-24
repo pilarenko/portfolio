@@ -14,7 +14,7 @@ img:hover {
 }
 
 
-@media only screen and (max-width: 676px) {
+@media only screen and (max-width: 768px) {
   [class*="avatar"] {
   	display: flex;
   	margin: 30px auto;
