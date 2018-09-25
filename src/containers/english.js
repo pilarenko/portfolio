@@ -12,7 +12,7 @@ const english = {
 				project: {
 					names: ["Elevelator", "Spotacritic"],
 					desc: ["Interactive system simulating elevator's functioning.", "Tool that makes Spotify playlists out of Metacritic's best albums in a given genre."],
-					status: ["1.0", "Work in progress"],
+					status: ["v1.0", "Work in progress"],
 					tech: "Used technology:",
 				},
 				header: "My work",

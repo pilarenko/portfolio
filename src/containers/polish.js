@@ -12,7 +12,7 @@ const polish = {
 				project: {
 					names: ["Elevelator", "Spotacritic"],
 					desc: ["Interaktywny system symulujący pracę windy.", "Narzędzie tworzące playlisty Spotify z najlepszych płyt miesiąca na Metacritic."],
-					status: ["1.0", "W trakcie tworzenia"],
+					status: ["v1.0", "W trakcie tworzenia"],
 					tech: "Wykorzystana technologia:",
 				},
 				header: "Moje dzieła",
