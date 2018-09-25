@@ -6,9 +6,9 @@ import Visual from './Visual/Visual';
 import classes from './Header.css';
 
 const header = (props) => (
-	<div className = {classes.header}>
+	<header className = {classes.header}>
 		<Signature language = {props.language.signature}/>
 		<Visual />
-	</div>
+	</header>
 );
 export default header;

@@ -12,7 +12,7 @@ const profile = (props) => {
 		elements.push(<li key = {i}>{lis[i]}</li>);
 	}
 	return (
-		<div className = {classes.profile}>
+		<section className = {classes.profile}>
 			<div className = {classes.firstRow}>
 				<Avatar />
 				<p className = {classes.paragraph}>{paragraph}</p>
@@ -22,7 +22,7 @@ const profile = (props) => {
 					{elements}
 				</ul>
 			</div>
-		</div>
+		</section>
 	)
 };
 export default profile;

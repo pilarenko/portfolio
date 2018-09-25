@@ -7,10 +7,10 @@ const contact = (props) => {
 	const emailText = props.language[1];
 	const buttonClasses = ["far fa-envelope", classes.buttonIcon].join(" ");
 	return (
-		<div className = {classes.contact}>
+		<section className = {classes.contact}>
 			<h2 className = {classes.paragraph}>{paragraph}</h2>
 			<a href="mailto:adrianpilarczyk314@gmail.com?"><button className = {classes.email}><i className={buttonClasses}></i>{emailText}</button></a>
-		</div>
+		</section>
 	)
 };
 export default contact;

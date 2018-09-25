@@ -5,8 +5,8 @@ import Skill from './Skill/Skill';
 import classes from './Skills.css';
 
 const skills = (props) => {
-	const skillsList = ["ES6+", "React", "jQuery", "PHP", "HTML", "CSS", "Bootstrap", "Git", "UXPin"];
-	const advancementLevel = ["Advanced", "Advanced", "Pro", "Novice", "Advanced", "Advanced", "Advanced", "Beginner", "Beginner"];
+	const skillsList = ["ES6+", "React", "jQuery", "PHP", "HTML + CSS", "Linux", "Bootstrap", "Git", "UXPin"];
+	const advancementLevel = ["Advanced", "Advanced", "Pro", "Novice", "Advanced", "Novice", "Advanced", "Beginner", "Beginner"];
 
 	const elements = [];
 
@@ -15,9 +15,9 @@ const skills = (props) => {
 	}	
 
 	return (
-		<div className = {classes.skills}>
+		<section className = {classes.skills}>
 			{elements}
-		</div>
+		</section>
 	);
 };
 export default skills;

@@ -14,9 +14,9 @@ const qas = (props) => {
 	}
 
 	return (
-		<div className = {classes.qas}>
+		<section className = {classes.qas}>
 			{elements}
-		</div>
+		</section>
 	)
 };
 export default qas;

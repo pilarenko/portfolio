@@ -29,12 +29,12 @@ const projects = (props) => {
 			/>);
 	}	
 	return (
-		<div>
+		<section>
 			<h2 className = {classes.header}>{header}</h2>
 			<div className = {classes.projects}>
 				{elements}
 			</div>
-		</div>
+		</section>
 	);
 };
 export default projects;
