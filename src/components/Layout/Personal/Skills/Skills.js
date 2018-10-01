@@ -5,7 +5,7 @@ import Skill from './Skill/Skill';
 import classes from './Skills.css';
 
 const skills = (props) => {
-	const skillsList = ["ES6+", "React", "jQuery", "PHP", "HTML + CSS", "Linux", "Bootstrap", "Git", "UXPin"];
+	const skillsList = ["ES6+", "React", "jQuery", "PHP", "HTML + CSS", "Linux", "Bootstrap", "Git", "Python"];
 	const advancementLevel = ["Advanced", "Advanced", "Pro", "Novice", "Advanced", "Novice", "Advanced", "Beginner", "Beginner"];
 
 	const elements = [];
