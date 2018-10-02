@@ -3,7 +3,7 @@
 	flex-wrap: wrap;
 	background-color: #FEF9EA;
 	max-width: 40%;
-	margin: 100px auto;
+	margin: 100px 10px;
 	color: #1b1d1c;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 	text-align: justify;
@@ -44,14 +44,5 @@
   }  
   [class*="secondRow"] {
   	margin: 0px 0px 20px 0px;
-  }
-}
-
-@media only screen and (max-width: 1369px) {
-  [class*="profile"] {
-  	display: block;
-  	max-width: 80%;
-  	padding: 5px 10px;
-  	margin: 20px auto;
   }
 }
