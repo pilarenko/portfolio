@@ -14,20 +14,6 @@ class App extends Component {
     english: true,
 	};
 
-  activateAdvancementLevel = (event) => {
-    if (event.target.nodeName === "DIV") {
-      const id = event.target.getAttribute("name");
-      document.getElementById(id).style.visibility = "visible";
-    }
-  }
-
-  deactivateAdvancementLevel = (event) => {
-    if (event.target.nodeName === "DIV") {
-      const id = event.target.getAttribute("name");
-      document.getElementById(id).style.visibility = "hidden";
-    }  
-  }
-
   languageClickHandler = (event) => {
     this.setState({
       english: !this.state.english,
@@ -45,7 +31,7 @@ class App extends Component {
     return (
       <div className={classes.App}>
         <Navbar languageClick={this.languageClickHandler} language={language.navbar} icon={this.state.english} />
-        <Layout language={language.layout} onHover={this.activateAdvancementLevel} onLeave={this.deactivateAdvancementLevel}/>
+        <Layout language={language.layout} />
       	<Footer language={language.footer}/>
       </div>
     );

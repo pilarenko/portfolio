@@ -10,9 +10,9 @@ import classes from './Layout.css';
 
 const layout = (props) => (
 	<section className = {classes.layout}>
-		<Header language = {props.language.header}/> 
-		<Personal language = {props.language.personal} onHover={props.onHover} onLeave={props.onLeave}/>
-		<Showoff language = {props.language.showoff}/>
+		<Header language = {props.language.header} /> 
+		<Personal language = {props.language.personal} />
+		<Showoff language = {props.language.showoff} />
 	</section>
 );
 

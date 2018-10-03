@@ -4,17 +4,7 @@
 	border-radius: 100px;
 	margin: 10px auto;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-}
-
-.advancement {
-	margin-top: 5px;
-	font-size: 0.9rem;
-	visibility: hidden;
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	   -moz-animation: fadein 2s; /* Firefox < 16 */
-	    -ms-animation: fadein 2s; /* Internet Explorer */
-	     -o-animation: fadein 2s; /* Opera < 12.1 */
-	        animation: fadein 2s;
+	cursor: pointer;
 }
 
 .heading {
@@ -27,9 +17,12 @@
 
 
 .text {
-	color: #8c93bd;
-	margin: 10px auto;
+	color: black;
+	margin: 0px auto;
 	text-align: center;
+	opacity: 0;
+	font-size: 0.6rem;
+	padding: 2px 10px;
 }
 
 .gears {
@@ -38,11 +31,26 @@
 	text-align: center;
 	display: block;
 	line-height: 3;
-	cursor: pointer;
 }
 
-.gears:hover {
-	/* transform: scale(1.02); */
+.skill:hover > .gears {
+	-webkit-animation: moveLineUp 150ms forwards; 
+	   -moz-animation: moveLineUp 150ms forwards; 
+	    -ms-animation: moveLineUp 150ms forwards; 
+	     -o-animation: moveLineUp 150ms forwards; 
+			animation: moveLineUp 150ms forwards;
+			transition-timing-function: ease-in-out;
+			font-size: 1.8rem;
+}
+
+.skill:hover > .text {
+	/* visibility: visible; */
+	-webkit-animation: fadein 300ms forwards; 
+	-moz-animation: fadein 300ms forwards; 
+	 -ms-animation: fadein 300ms forwards; 
+	  -o-animation: fadein 300ms forwards; 
+		 animation: fadein 300ms forwards;
+		 transition-timing-function: ease-in-out;
 }
 
 
@@ -51,26 +59,50 @@
     to   { opacity: 1; }
 }
 
-/* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+/* moveLineUp */
+
+@keyframes moveLineUp {
+    from { line-height: 3; }
+    to   { line-height: 2; }
+}
+
+@-moz-keyframes moveLineUp {
+    from { line-height: 3; }
+    to   { line-height: 2; }
+}
+
+@-webkit-keyframes moveLineUp {
+    from { line-height: 3; }
+    to   { line-height: 2; }
+}
+
+@-ms-keyframes moveLineUp {
+    from { line-height: 3; }
+    to   { line-height: 2; }
+}
+
+@-o-keyframes moveLineUp {
+    from { line-height: 3; }
+    to   { line-height: 2; }
+}
+
