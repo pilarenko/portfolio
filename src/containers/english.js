@@ -6,6 +6,7 @@ const english = {
 		},
 		personal: {
 			profile: ["I am a web-developer and that means I can provide you transparent and efficient websites which will be displayed correctly both on desktop and mobile devices. Together we will establish what is it that your website needs and just after I chug 4 coffee pots, a beautiful digital business card will be served to you.", ["I work mainly in React", "I study at Wrocław University of Technology", "I also do some video-editing"]],
+			skills: ["Modern syntax and methods", "Super fast SPA", "REST integrations", "Accessible user friendly interfaces", "NPM, directory operations", "Init, Commit, Push & Repeat"],
 		},
 		showoff: {
 			projects: {

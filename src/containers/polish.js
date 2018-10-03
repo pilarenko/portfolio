@@ -6,6 +6,7 @@ const polish = {
 		},
 		personal: {
 			profile: ["Pracuję jako web-developer, co oznacza, że gwarantuję przejrzyste i wydajne strony internetowe, które będą się odpowiednio prezentować na wszystkich urządzeniach. Wspólnie ustalimy, czego potrzebuje Twoja aplikacja i zaraz po tym, jak opróżnię cztery dzbanki z kawą, trafi do Ciebie piękna internetowa wizytówka.", ["Pracuję głównie w React", "Studiuję na Politechnice Wrocławskiej", "Zajmuję się również montażem filmów wideo"]],
+			skills: ["Nowoczesna składnia i podejście", "Super szybkie SPA", "Integracje REST", "Przyjazne użytkownikowi intefejsy", "NPM, operacje na katalogach", "Init, Commit, Push, Powtórz"],
 		},
 		showoff: {
 			projects: {

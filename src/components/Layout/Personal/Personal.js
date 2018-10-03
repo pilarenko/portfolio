@@ -8,7 +8,7 @@ import classes from './Personal.css';
 const personal = (props) => (
 	<section className = {classes.personal}>
 		<Profile language = {props.language.profile} />
-		<Skills />
+		<Skills language = {props.language.skills}/>
 	</section>
 );
 export default personal;
