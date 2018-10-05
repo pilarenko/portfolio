@@ -14,7 +14,7 @@ const projects = (props) => {
 
 	const header = props.language.header;
 	const hrefList = ["https://peelar-elevelator.netlify.com/", "https://peelar-spotacritic.netlify.com/"];
-	const techList = ["React", "React, Firebase, Axios, Cheerio, Node.js"];
+	const techList = ["React", "React, Firebase, Axios, Osmosis, Node.js"];
 	const elements = [];
 
 	for (let i = 0; i < projectProperties.name.length; i++) {

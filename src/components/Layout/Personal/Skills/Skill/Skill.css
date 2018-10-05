@@ -33,6 +33,10 @@
 	line-height: 3;
 }
 
+.gears:focus {
+	outline: none;
+}
+
 .skill:hover > .gears {
 	-webkit-animation: moveLineUp 150ms forwards; 
 	   -moz-animation: moveLineUp 150ms forwards; 
